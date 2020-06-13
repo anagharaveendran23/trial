@@ -1,0 +1,447 @@
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  
+  background-image: url("../images/banner2.jpg");
+
+  min-height: 450px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo
+{
+position: absolute;
+ left:100px;
+  top:240px;
+  margin: 0px;
+ height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 65px;
+
+}
+
+/* Add styles to the form container */
+.container-form {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+.container
+{
+padding: 15px;
+
+}
+.border
+{
+width:300px;
+background-color:#0055ff;
+border-radius:20px;
+
+}
+.cntnt
+{
+width:200px;
+height:300px;
+
+
+  padding: 10px;
+  box-shadow: 2px 4px #888888;
+
+}
+/* Full-width input fields */
+input[type=text], input[type=email], input[type=tel] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: 1px solid #f1f1f1;
+  background: white ;
+}
+hr
+{
+
+background: black;
+}
+
+.vl1 {
+  border-left: 1px solid black;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  margin-top:-70px;
+}
+.circle1
+{
+position: absolute;
+ left: 50%;
+  margin-left: -70px;
+  margin-top:80px;
+  border: 1px solid black;
+ height: 80px;
+  width: 80px;
+  
+  border-radius: 50%;
+  display: inline-block;
+  padding: 65px;
+	background-color:#a6a6a6;
+}
+.circle1:hover
+{
+background: white ;
+}
+.triangle1
+{
+display:none;
+width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+  position: absolute;
+ left: 53%;
+ margin-left: -70px;
+  margin-top:240px;
+}
+.circle1:hover + .triangle1 {
+    display: block;
+}
+.box1
+{
+display:none;
+width: 200px; 
+  height: 100; 
+  
+  border-radius:5%;
+  border: 1px solid #a6a6a6;
+  position: absolute;
+ left: 48%;
+ margin-left: -70px;
+  margin-top:250px;
+
+}
+
+.vl2 {
+  border-left: 1px solid black;
+  height: 100px;
+  position: absolute;
+  left: 7%;
+  margin-left: -3px;
+  margin-top:-18px;
+}
+.circle2
+{
+position: absolute;
+ left: 8%;
+  margin-left: -70px;
+  margin-top:80px;
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 65px;
+ background-color:#a6a6a6;
+}
+.circle2:hover
+{
+background: white ;
+}
+.triangle2
+{
+display:none;
+width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+  position: absolute;
+ left: 11%;
+ margin-left: -70px;
+  margin-top:240px;
+}
+.circle2:hover + .triangle2 {
+    display: block;
+}
+.box2
+{
+display:none;
+width: 200px; 
+  height: 100; 
+ 
+   border-radius:5%;
+  border: 1px solid #a6a6a6;
+ 
+  position: absolute;
+ left: 9%;
+ margin-left: -70px;
+  margin-top:250px;
+
+}
+.vl3 {
+  border-left: 1px solid black;
+  height: 100px;
+  position: absolute;
+  left: 30%;
+  margin-left: -3px;
+  margin-top:-18px;
+}
+.circle3
+{
+position: absolute;
+ left: 30%;
+  margin-left: -70px;
+  margin-top:80px;
+  border: 1px solid black;
+ height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 65px;
+ background-color:#a6a6a6;
+}
+.circle3:hover
+{
+background: white ;
+}
+.triangle3
+{
+display:none;
+width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+  position: absolute;
+ left: 33%;
+ margin-left: -70px;
+  margin-top:240px;
+}
+.circle3:hover + .triangle3 {
+    display: block;
+}
+.box3
+{
+display:none;
+width: 200px; 
+  height: 100; 
+ 
+  
+  border-radius:5%;
+  border: 1px solid #a6a6a6;
+  position: absolute;
+ left: 30%;
+ margin-left: -70px;
+  margin-top:250px;
+
+}
+.vl4 {
+  border-left: 1px solid black;
+  height: 100px;
+  position: absolute;
+  left: 70%;
+  margin-left: -3px;
+  margin-top:-18px;
+}
+.circle4
+{
+position: absolute;
+ left: 70%;
+  margin-left: -70px;
+  margin-top:80px;
+  border: 1px solid black;
+ height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 65px;
+ background-color:#a6a6a6;
+}
+.circle4:hover
+{
+background: white ;
+}
+.triangle4
+{
+display:none;
+width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+  position: absolute;
+ left: 73%;
+ margin-left: -70px;
+  margin-top:240px;
+}
+.circle4:hover + .triangle4 {
+    display: block;
+}
+.box4
+{
+display:none;
+width: 200px; 
+  height: 100; 
+ 
+  
+  border-radius:5%;
+  border: 1px solid #a6a6a6;
+  position: absolute;
+ left: 67%;
+ margin-left: -70px;
+  margin-top:250px;
+
+}
+.vl5 {
+  border-left: 1px solid black;
+  height: 100px;
+  position: absolute;
+  left: 93%;
+  margin-left: -3px;
+  margin-top:-18px;
+}
+.circle5
+{
+position: absolute;
+ left: 93%;
+  margin-left: -70px;
+  margin-top:80px;
+  border: 1px solid black;
+ height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 65px;
+  background-color:#a6a6a6;
+}
+.circle5:hover
+{
+background: white ;
+}
+.triangle5
+{
+display:none;
+width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+  position: absolute;
+ left: 96%;
+ margin-left: -70px;
+  margin-top:240px;
+}
+.circle5:hover + .triangle5 {
+    display: block;
+}
+.box5
+{
+display:none;
+width: 200px; 
+  height: 100; 
+ 
+  
+   border-radius:5%;
+  border: 1px solid #a6a6a6;
+  position: absolute;
+ left: 86%;
+ margin-left: -70px;
+  margin-top:250px;
+
+}
+ut[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.heading{
+padding:20px;
+
+}
+.btn:hover {
+  opacity: 1;
+}
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 1px solid;
+    width: 592px; /* half of limiter */
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+
+
+
+.parlx
+{
+background-image: url("../images/nature.jpeg");
+position:relative;
+opacity:0.70;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+min-height:200px;
+text-align:center;
+color:white;
+padding:50px;
+}
+.footer
+{
+margin-top:400px;
+min-height:150px;
+padding: 15px;
+background: #f2f2f2;
+
+}
